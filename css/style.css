@@ -10,7 +10,7 @@
 
 @font-face {
     font-family:primary;
-    src: url(/fonts/Akira\ Expanded\ Demo.woff2);
+    src: url(/fonts/Akira\ Expanded\ Demo.woff2) format('woff2')
     
 }
  @font-face {
@@ -20,8 +20,8 @@
 }
 @font-face {
     font-family:Gilroy;
-    src: url(/fonts/Gilroy-Regular.woff2);
-
+    src: url('/fonts/Gilroy-Regular.woff2') format('woff2'),
+         url('fonts/Gilroy-Regular.woff') format('woff');
 } 
 
 
