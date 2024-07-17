@@ -1,0 +1,307 @@
+
+
+
+#main #page nav{
+    
+    height:12.14vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2vw;
+    /* background-color: rgba(28, 134, 196, 0.808); */
+    z-index: 999 !important;
+
+}
+nav img{   
+    position: relative;
+    align-items: center;
+    height:5vw ;
+    width: 5vw;
+    background-color: var(--stroke);
+    border-radius: 50%;
+}
+nav sub-nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3vw;
+}
+nav sub-nav a{
+    
+    color: #868686;
+    font-size: 2vw;
+    text-decoration: none;
+}
+nav sub-nav a:hover{
+    cursor: pointer;
+    transition: .5s ease all;
+    color: #E1C3A9;
+    text-decoration: none;
+
+}
+nav sub-nav button {
+    /* position: relative; */
+    overflow: hidden;   
+    /* background:linear-gradient(to right,#14acce,#c471ed,#f64f59) ; */
+    background: linear-gradient(-200deg,rgba(31, 59, 15, 0.781), rgba(4, 74, 26, 0.601));
+    opacity: 0.8;
+    color: #dadada;
+    font-size: 1vw;
+    width: 30vw;    
+    padding: 6px 80px;
+    border-radius: 10px;
+    border: none;
+}
+sub-nav button h4{
+    /* position: absolute; */
+    font-family:type;
+    display: flex;  
+    overflow: visible;
+    align-items: center;
+    white-space: nowrap;
+    animation: anim-text 7s linear infinite;
+}
+
+@keyframes anim-text {
+ 0%{
+        
+   }
+100%{
+        transform: translateX(-250%);
+    }
+
+}
+
+
+#main #page{
+    position: relative;
+    height:100vh;
+    width: 100%;
+    padding: 0px 40px;
+    /* background-color: #f64f59; */
+    overflow: hidden;
+}
+
+#page .navbar{
+    position: absolute;
+    height:100%;
+    width: 30%;
+    right:-30%;
+    top:0%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius:20% ;
+    border-bottom-left-radius:20% ;
+    background:linear-gradient(to right bottom,#14accea7,#c471ed84,#f64f5a97); 
+    backdrop-filter:blur(50px);
+    overflow: hidden;
+
+    /* padding: 0px 40px; */
+    z-index:50;
+}
+
+#page .navbar .close i{
+    position: absolute;
+    cursor: pointer;
+    top:2.5vw;
+    right: 2rem;
+    font-size: 3vw; 
+    color: red;
+    z-index:5 ;
+}
+#page .navbar ul{
+    position: absolute;
+    /* margin-top: 15vw; */
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    padding: 5vw 5vw;
+    height: 100%;
+    /* background-color: #1a26d622; */
+}
+
+#page .navbar ul a{
+    font-size: 2vw;
+    text-decoration: none;
+    color: #868686;
+    height: fit-content;
+    width: fit-content;
+    padding:10px 30px;
+    border-radius: 50px;
+    background-color: #000;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+#page .intro{
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+    display: flex;
+    width: 87%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+
+    /* background-color: #4b3522;     */
+
+}
+
+#page .intro h2{  
+       font-family:primary;
+    color: #868686
+}
+
+#page .intro h2>span{  
+    letter-spacing: 5px;
+    font-family:primary;
+    color: #868686;
+    align-items: center;
+    padding: 2px 20px;
+    /* background:linear-gradient(to right,#12c2e9,#c471ed,#f64f59) ; */
+    color: transparent;  
+    -webkit-text-stroke:2px #e1c3a9;
+    border-radius:12px ;
+}
+
+#page .intro .bounding-elem{
+    /* background: #a81d1d; */
+    overflow: hidden;
+}
+
+#page .intro .bounding-elem h1 span{
+    display:inline-block;  
+    margin-top: 1vw;
+    font-family:primary;
+    font-size: 9vw;
+    /* transform: translateY(100%); */
+    letter-spacing:5px;
+    -webkit-text-stroke:2px #dadada;
+    opacity: 0.9;
+    color: transparent;
+    /* background-color: #12c2e9; */
+    /* transition: cubic-bezier(0.19, 1, 0.22, 1)0.1ms; */
+}
+p{   
+    /* font-family: type; */
+    text-align: center;
+    margin-top: 2vw;
+    width: 70%;
+    /* background-color: #c471ed; */
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+p>span{
+
+    display: inline-block;
+    font-weight: 900;
+    background: -webkit-linear-gradient(70deg,#12c2e9,#c471ed,#f64f59);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all ease in 5s;
+    padding: 0px 5px;
+
+}
+
+p>span::selection{
+       -webkit-text-fill-color:#505050;
+        background-color: #dadada;
+}
+
+
+#page .bg-mob{
+    position:absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    width:100%;
+    opacity: 0.5;
+    background-color: #12c2e9;
+    visibility: hidden;
+}
+#page .bg-mob img{
+    position:absolute;
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    /* opacity: 0.5; */
+    /* background-color: #12c2e9; */
+    /* visibility: hidden; */
+}
+
+
+
+#page #bottom-nav  {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+/* background-color: #c471ed; */
+display: flex;
+/* justify-content: space-between; */
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 30vw;
+padding: 20px;
+
+}
+
+#page #bottom-nav h6 a {
+text-decoration: none;
+font-size: 1.2vw;   
+color: #868686; 
+
+}
+
+
+#bottom-nav h6 i{
+    position: absolute; 
+    margin-left: 5px;
+    font-size: 1.49rem;
+    font-weight: 100;
+    align-self: center;
+
+}
+
+#bottom-nav h6 a {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.3px;
+    padding: 5px 5px;
+  }
+  #bottom-nav h6 a:after {    
+      position: absolute;
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    background: #e1c3A9;
+    opacity: 0.6;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  #bottom-nav h6 a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  /* i:hover:after { 
+    transform: rotate(35deg); 
+  } */
+
+
