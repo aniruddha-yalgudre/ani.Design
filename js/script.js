@@ -548,8 +548,8 @@ function masker(){
       duration: 0.5,
       opacity:0,
       "--mask-size":"60px",
-      // "--mask-x": `0px`,
-      // "--mask-y": `0px`,
+      "--mask-x": `0px`,
+      "--mask-y": `0px`,
       ease: "power4",
     });
     gsap.to(cursor, {
