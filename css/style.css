@@ -9,19 +9,19 @@
 @import url('./Footer.css');
 
 @font-face {
-    font-family:primary;
+    font-family:'primary';
     src: url('/fonts/Akira\ Expanded\ Demo.woff2') format('woff2'),
     url('/fonts/Akira\ Expanded\ Demo.woff2') format('woff');
     
 }
  @font-face {
-    font-family:secondary;
+    font-family:'secondary';
     src: url('/fonts/DrukWide-Medium-Web.woff2') format('woff2'),
     url('/fonts/DrukWide-Medium-Web.woff2') format('woff');
 
 }
 @font-face {
-    font-family:Gilroy;
+    font-family:'Gilroy';
     src: url('/fonts/Gilroy-SemiBold.woff2') format('woff2'),
          url('fonts/Gilroy-SemiBold.woff') format('woff');
 } 
