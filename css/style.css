@@ -10,14 +10,14 @@
 
 @font-face {
     font-family:primary;
-    src: url(/fonts/Akira\ Expanded\ Demo.woff2) format('woff2')
-    url(/fonts/Akira\ Expanded\ Demo.woff2) format('woff')
+    src: url('/fonts/Akira\ Expanded\ Demo.woff2') format('woff2'),
+    url('/fonts/Akira\ Expanded\ Demo.woff2') format('woff');
     
 }
  @font-face {
     font-family:secondary;
-    src: url('/fonts/DrukWide-Medium-Web.woff2') format('woff2')
-    url('/fonts/DrukWide-Medium-Web.woff2') format('woff')
+    src: url('/fonts/DrukWide-Medium-Web.woff2') format('woff2'),
+    url('/fonts/DrukWide-Medium-Web.woff2') format('woff');
 
 }
 @font-face {
