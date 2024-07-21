@@ -10,8 +10,8 @@
 
 @font-face {
     font-family:primary;
-    src: url('/fonts/Akira\ Expanded\ Demo.woff2') format('woff2'),
-    url('/fonts/Akira\ Expanded\ Demo.woff2') format('woff');
+    src: url('/fonts/Akira\Expanded\ Demo.woff2') format('woff2'),
+    url('/fonts/Akira\Expanded\ Demo.woff2') format('woff');
     
 }
  @font-face {
