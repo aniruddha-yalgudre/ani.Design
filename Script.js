@@ -3,7 +3,7 @@
 const locoScroll = new LocomotiveScroll({
   el: document.querySelector("#main"),
   smooth: true,
- smartphone:{
+ mobile:{
     smooth:true,
     touchMultiplier: 2, // Increase this value for faster scrolling
     multiplier: 1.5 // Adjust this for overall scroll speed 
